@@ -16,6 +16,7 @@
           ></v-text-field>
           <v-text-field
             v-model="peso"
+            v-mask="'###'"
             label="Peso"
             filled
             placeholder="Exp:85.0"
