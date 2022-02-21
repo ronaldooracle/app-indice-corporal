@@ -48,8 +48,8 @@ export default {
       if (this.altura && this.peso > 0) {
         this.total = this.peso / this.altura ** 2;
         if (this.total < 18.05) this.status = "Abaixo do Peso";
-        else if (this.total < 24.09) this.status = "Saudavel";
-        else if (this.total < 25.09) this.status = "Peso Excesso";
+        else if (this.total < 24.09) this.status = "Saudável";
+        else if (this.total < 25.09) this.status = "Excesso de peso";
         else if (this.total < 30.0) this.status = "Obesidade Grau I";
         else if (this.total < 35.0) this.status = "Obesidade Grau II";
         else if (this.total >= 40.0) this.status = "Obesidade Grau III";
