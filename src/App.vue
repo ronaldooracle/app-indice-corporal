@@ -19,7 +19,7 @@
             v-mask="'###'"
             label="Peso"
             filled
-            placeholder="Exp:85.0"
+            placeholder="Exp:85"
           ></v-text-field>
           <v-btn
             color="success"
