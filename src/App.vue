@@ -8,16 +8,17 @@
           <v-card-actions v-if="total != 0">Resultado: {{ total }}</v-card-actions>
           <v-card-actions v-if="total != 0">Classificação: {{ status }}</v-card-actions>
           <v-text-field
+          v-mask="'#.##'"
             v-model="altura"
             label="Altura"
             filled
-            placeholder="1.75"
+            placeholder="Exp:1.75"
           ></v-text-field>
           <v-text-field
             v-model="peso"
             label="Peso"
             filled
-            placeholder="85.0"
+            placeholder="Exp:85.0"
           ></v-text-field>
           <v-btn
             color="success"
@@ -32,6 +33,7 @@
   </v-app>
 </template>
 <script>
+
 import Footer from './components/Footer.vue';
 export default {
   components: { Footer },
