@@ -1,5 +1,7 @@
 # app-imc
+![image](https://user-images.githubusercontent.com/30814275/155769864-9b5d84d2-220e-44c1-a17e-4b247ebd1782.png)
 
+link https://app-indice-corporal.herokuapp.com/
 ## Project setup
 ```
 npm install
